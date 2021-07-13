@@ -114,7 +114,7 @@ console.log(calculator.minus(2, 5));
 console.log(calculator.divide(2, 5));
 console.log(calculator.powerOf(2, 5));
 
-// 2.11 Returns
+// 2.11~12 Returns
 
 const age = 96;
 function calculateKrAge(ageOfForeigner){
@@ -122,4 +122,27 @@ function calculateKrAge(ageOfForeigner){
 }
 
 console.log(calculateKrAge(age));
+
+// 2.13~16 Conditionals
+
+// string을 number로 바꾸기 : parseInt()
+// NaN인지 체크 : isNaN()
+const inputAge = parseInt(prompt('How old are you?'));
+console.log(isNaN(inputAge));
+
+if (isNaN(inputAge) || inputAge < 0){
+    console.log("Please write a real positive number");
+}else if (inputAge < 18){
+    console.log("You are too young");
+}else if(inputAge >= 18 && inputAge <= 50){
+    console.log("You can drink");
+}
+else if(inputAge > 50 && inputAge <= 80) {
+    console.log("You should exercise");
+}else if (inputAge === 100){
+    console.log("wow you are wise")
+}else if(inputAge > 80){
+    console.log("You can do whatever you want")
+}
+
 
