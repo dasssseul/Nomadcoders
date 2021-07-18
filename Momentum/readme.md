@@ -10,5 +10,9 @@
         * querySelector(css 선택자) : css방식으로 요소를 선택, 첫번째 요소 단 하나만 선택
         * querySelectorAll(css 선택자) : css방식으로 해당 요소 모두 선택(배열 형태)
     * 이벤트 
-        * addEventListener(이벤트명, 호출 함수) : 이벤트 발생 시 호출 함수 실행
-        
+        * 요소.addEventListener(이벤트명, 호출 함수) : 이벤트 발생 시 호출 함수 실행
+            * 이벤트명 : click, mouseenter, mouseleave 등
+        * window.addEventLister(이벤트명, 호출 함수) : window내 이벤트(body, head 등)
+            * 이벤트명 : resize, copy, offline, online 등
+        * css in js
+            * 요소.classList.toggle(토큰) : 토큰이 클래스 리스트에 있다면 제거(remove), 없다면 추가(add)
