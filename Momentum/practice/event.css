@@ -1,0 +1,13 @@
+body{
+    background-color: beige;
+}
+h1 {
+    color : blue;
+    transition: color 0.5s ease-in-out;
+}
+.active{
+    color : tomato;
+}
+.sexyfont{
+    font-family: 'Courier New', Courier, monospace;
+}
