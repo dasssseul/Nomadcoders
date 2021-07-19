@@ -16,3 +16,11 @@
             * 이벤트명 : resize, copy, offline, online 등
         * css in js
             * 요소.classList.toggle(토큰) : 토큰이 클래스 리스트에 있다면 제거(remove), 없다면 추가(add)
+
+* MOMENTUM APP 
+    * Log In
+        * preventDefault() : 브라우저의 기본 동작 막기
+        * localStorage : 로그인 정보
+            * setItem("키", 값) : 입력된 로그인 정보 저장
+            * getItem("키") : 저장된 키 값 확인
+            
