@@ -1,8 +1,8 @@
 # 바닐라 JS로 크롬 앱 만들기
 
-## javascript on the browser
+## Javascript on the browser
 
-* Document : 웹페이지 그 자체, HTML 요소에 접근하고자 할 때 사용
+    * Document : 웹페이지 그 자체, HTML 요소에 접근하고자 할 때 사용
     * HTML 요소의 선택
         * getElementsId(아이디) : 해당 아이디의 요소 선택
         * getElementsByClassName(클래스명) : 해당 클래스에 속한 요소 모두 선택(배열 형태)
