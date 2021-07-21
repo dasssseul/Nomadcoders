@@ -1,6 +1,6 @@
 # 바닐라 JS로 크롬 앱 만들기
 
-3. javascript on the browser
+## javascript on the browser
 
 * Document : 웹페이지 그 자체, HTML 요소에 접근하고자 할 때 사용
     * HTML 요소의 선택
@@ -19,7 +19,8 @@
         * css in js
             * 요소.classList.toggle(토큰) : 토큰이 클래스 리스트에 있다면 제거(remove), 없다면 추가(add)
 
-* MOMENTUM APP 
+## MOMENTUM APP 
+
     * Log In
         * preventDefault() : 브라우저의 기본 동작 막기
         * localStorage : 로그인 정보
